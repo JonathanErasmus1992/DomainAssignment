@@ -1,7 +1,8 @@
 package hotelmanagement.domain;
 
-import org.hibernate.annotations.Entity;
 
+
+import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.IdClass;
 import java.io.Serializable;
