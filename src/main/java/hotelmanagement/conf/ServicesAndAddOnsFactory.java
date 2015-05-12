@@ -7,7 +7,7 @@ import hotelmanagement.domain.ServicesAndAddOns;
  */
 public class ServicesAndAddOnsFactory
 {
-    public static ServicesAndAddOns createServicesAndAddOns( Long serv_ext_id,
+    public static ServicesAndAddOns createServicesAndAddOns( int serv_ext_id,
                                                              String ext_name,
                                                              double pr_added )
     {

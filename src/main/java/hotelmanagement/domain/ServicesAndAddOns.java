@@ -12,7 +12,7 @@ import java.io.Serializable;
 public class ServicesAndAddOns implements Serializable
 {
     @Id
-    private Long serv_extras_id;
+    private int serv_extras_id;
     private String extra_name;
     private double price_added;
 
@@ -24,7 +24,7 @@ public class ServicesAndAddOns implements Serializable
         extra_name = builder.extra_name;
         price_added = builder.price_added;
     }
-    public Long getID()
+    public int getID()
     {
         return serv_extras_id;
     }
@@ -39,11 +39,11 @@ public class ServicesAndAddOns implements Serializable
 
     public static class Builder
     {
-        private Long serv_extras_id;
+        private int serv_extras_id;
         private String extra_name;
         private double price_added;
 
-        public Builder( Long serv_extras_id )
+        public Builder( int serv_extras_id )
         {
             this.serv_extras_id = serv_extras_id;
         }
