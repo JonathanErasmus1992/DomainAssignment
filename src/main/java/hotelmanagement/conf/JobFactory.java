@@ -14,8 +14,8 @@ public class JobFactory
                                  double basic_sal )
     {
         Job job = new Job
-                .Builder( j_type )
-                .job_code( j_code )
+                .Builder( j_code )
+                .job_type( j_type )
                 .job_title( j_title )
                 .job_description( j_descr )
                 .basic_salary( basic_sal )

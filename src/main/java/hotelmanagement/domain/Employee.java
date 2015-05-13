@@ -37,6 +37,7 @@ public class Employee implements Serializable
         ID_number = builder.ID_number;
         employee_firstnames = builder.employee_firstnames;
         employee_lastname = builder.employee_lastname;
+        employee_demographics = builder.employee_demographics;
         employee_address = builder.employee_address;
         employee_contact = builder.employee_contact;
         job = builder.job;

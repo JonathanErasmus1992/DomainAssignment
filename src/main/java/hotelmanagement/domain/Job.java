@@ -52,14 +52,14 @@ public class Job implements Serializable
         private String job_description;
         private double basic_salary;
 
-        public Builder(String job_type)
+        public Builder(String job_code)
         {
-            this.job_type = job_type;
+            this.job_code = job_code;
         }
 
-        public Builder job_code(String value)
+        public Builder job_type(String value)
         {
-            this.job_code = value;
+            this.job_type = value;
             return this;
         }
 
